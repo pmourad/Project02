@@ -1,0 +1,464 @@
+/* ---- MOBILE 320px -------------------------------------------------- 
+-----------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+}
+
+#bg-color {
+	margin: 0;
+	width:100%;
+	background-color: #fafafa;
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* ---- NAV ---- */
+
+.name { 
+	text-align: center;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 2em;
+}
+
+.name a {
+	text-decoration: none;
+	color: #4a4a4a;
+}
+
+.main-nav {
+	padding: 0;
+}
+
+.main-nav li {
+	list-style: none;
+	text-align: center;
+	margin: 8px 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1.2em;
+	color: #4a4a4a;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #fff;
+}
+
+.name a,
+.main-nav a {
+	display: block;
+	padding: 15px 15px;
+} 
+
+/* ---- INTRODUCTION ---- */
+
+.intro {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.intro img {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.intro p {
+	font-family: 'Palanquin', sans-serif;
+	font-size: 1.2em;
+	color: #7f7f7f;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+
+/* ---- GALLERY ---- */
+
+.container-gallery {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-top: 30px;
+}
+
+.section-title,
+.section-title-contact {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1.2em;
+	color: #4a4a4a;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.main-gallery {
+	padding: 0;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.gallery {
+	list-style: none;
+}
+
+.gallery img {
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.title {
+	font-style: 'Palanquin', sans-serif;
+	font-size: 1.2em;
+	color: #4a4a4a;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.caption,
+.caption-last {
+	font-style: 'Palanquin', sans-serif;
+	font-size: 1.2em;
+	color: #4a4a4a;
+	text-align: center;
+	line-height: 1.6em;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.caption-last {
+	padding-bottom: 70px;
+}
+
+
+/* ---- CONTACT ---- */
+
+.section-title-contact {
+	padding-top: 30px;
+}
+
+.container-contact {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.caption-contact,
+.text-contact {
+	font-style: 'Palanquin', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #7f7f7f;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.text-contact {
+	padding-bottom: 20px;
+}
+
+.info {
+	font-style: 'Palanquin', sans-serif;
+	font-size: 1em;
+	color: #7f7f7f;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding-left: 15px;
+}
+
+
+/* ---- FOOTER ---- */
+
+.container-footer {
+	width: 90%;
+	margin: 0 auto;
+	border-top: 1px solid #ececec;
+	margin-top: 80px;
+}
+
+.footer-name {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1.2em;
+	color: #4a4a4a;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.footer-name-top {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1em;
+	color: #4a4a4a;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.back-top {
+	visibility: visible;
+}
+
+.menu {
+	visibility: hidden;
+}
+
+
+/* ---- TABLET 768px ----------------------------------------------------- 
+-------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+	#wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+
+	/* ---- NAV ---- */
+
+	.main-nav {
+		text-align: center;
+	}
+
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.main-nav a {
+		display: inline;
+		background-color: #fafafa;
+	}
+
+
+	/* ---- INTRODUCTION ---- */
+
+	.intro {
+		padding-top: 0;
+	}
+
+	.intro p {
+		width: 57%;
+		display: inline;
+		float: left;
+		vertical-align: top;
+		font-size: 1.3em;
+		text-align: left;
+		margin: 0;
+
+	}
+
+	.intro img {
+		max-width: 39%;
+		display: inline;
+		float: right;
+		vertical-align: top;
+		padding-bottom: 60px;
+	}
+
+	.clearfix {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+
+	/* ---- GALLERY ---- */
+
+	.main-gallery {
+		display: block;
+	}
+
+	.col1 {
+		width: 45%;
+		margin: 0 auto;
+		display: inline;
+		float: left;
+		padding-bottom: 20px;
+	}
+
+	.col2 {
+		width: 45%;
+		margin: 0 auto;
+		display: inline;
+		float: right;
+		padding-bottom: 20px;
+	}
+
+	.section-title {
+		padding-bottom: 40px;
+		padding-top: 20px;
+	}
+
+	/* ---- CONTACT ---- */
+	body {
+		background-color: #fafafa;
+	}
+
+	.container-contact {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.back-top {
+		visibility: hidden;
+	}
+
+	.menu {
+		visibility: visible;
+	}
+
+	.menu ul {
+		width: 100%;
+		display: inline-block;
+		float: right;
+	}
+
+	.menu li {
+		display: inline-block;
+		float: right;
+		padding: 10px 12px 0 12px;
+	}
+
+	.menu a {
+		display: block;
+		font-family: 'Hind Siliguri', sans-serif;
+		font-size: 1em;
+		color: #4a4a4a;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+
+
+/* ---- DESKTOP 1024px ------------------------------------------- 
+----------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+	#wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.clearfix {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+
+	/* ---- NAVIGATION ---- */
+
+	.container {
+		margin-top: 50px;
+		padding: 0;
+	}
+
+	.name {
+		box-sizing: border-box;
+		display: inline-block;
+		float: left;
+	}
+
+	.name a {
+		margin-top: 0;
+		padding-top: 0; 
+		padding-left: 0;
+	}
+
+	.main-nav {
+		box-sizing: border-box;
+		display: inline-block;
+		float: right;
+	}
+
+	.main-nav a {
+		padding-right: 0;
+		padding-left: 45px;
+	}
+
+
+	/* ---- INTRODUCTION ---- */
+
+	.intro {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 0;
+	}
+
+	.intro p {
+		max-width: 60%;
+		float: left;
+		padding: 0;
+		font-size: 1.5em;
+	}
+
+	.intro img {
+		max-width: 40%;
+		float: right;
+		padding: 0;
+		padding-bottom: 60px;
+	}
+
+
+	/* ---- GALLERY ---- */
+
+	.column1 {
+		width: 31%;
+		margin: 0 auto;
+		display: inline;
+		float: left;
+		padding-bottom: 20px;
+	}
+
+	.column2 {
+		width: 31%;
+		margin: 0 auto;
+		display: inline;
+		float: left;
+		padding-bottom: 20px;
+		padding-left: 3.3%;
+	}
+
+	.column3 {
+		width: 31%;
+		margin: 0 auto;
+		display: inline;
+		float: right;
+		padding-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
