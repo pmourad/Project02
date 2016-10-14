@@ -8,12 +8,15 @@ body {
 #bg-color {
 	margin: 0;
 	width:100%;
-	background-color: #fafafa;
+	background-color: #d4675b;
+	padding-bottom: 50px;
+	padding-top: 30px;
 }
 
 #wrapper {
 	width: 90%;
 	margin: 0 auto;
+	background-color: #d4675b;
 }
 
 
@@ -27,7 +30,7 @@ body {
 
 .name a {
 	text-decoration: none;
-	color: #4a4a4a;
+	color: #ececec;
 }
 
 .main-nav {
@@ -75,7 +78,7 @@ body {
 .intro p {
 	font-family: 'Palanquin', sans-serif;
 	font-size: 1.2em;
-	color: #7f7f7f;
+	color: #ececec;
 	font-weight: 200;
 	line-height: 1.5em;
 }
@@ -205,13 +208,30 @@ body {
 	float: right;
 }
 
-.back-top {
-	visibility: visible;
+.menu1 {
+	list-style-type: none;
+	text-align: right;
+	padding: 1em 1em 0 0;
+	margin: 0;
 }
 
-.menu {
-	visibility: hidden;
+.menu1 a {
+	color: #424242;
+	text-decoration: none;
 }
+
+.menu2 {
+	display: none;
+}
+
+.footer-name {
+	float: left;
+	text-align: left;
+	padding: 1em 0 0 1em;
+	margin: 0;
+	font-weight: 400;
+}
+
 
 
 /* ---- TABLET 768px ----------------------------------------------------- 
@@ -222,12 +242,18 @@ body {
 	#wrapper {
 		width: 90%;
 		margin: 0 auto;
+		padding-bottom: 150px;
+		background-color: #d4675b;
+	}
+
+	#bg-color {
+		background-color: #d4675b;
 	}
 
 	.container {
 		width: 100%;
 		margin: 0 auto;
-		padding-bottom: 50px;
+		padding-bottom: 80px;
 	}
 
 	/* ---- NAV ---- */
@@ -243,6 +269,7 @@ body {
 	.main-nav a {
 		display: inline;
 		background-color: #fafafa;
+
 	}
 
 
@@ -307,7 +334,7 @@ body {
 
 	/* ---- CONTACT ---- */
 	body {
-		background-color: #fafafa;
+		background-color: #d4675b;
 	}
 
 	.container-contact {
@@ -315,37 +342,41 @@ body {
 		margin: 0 auto;
 	}
 
-	.back-top {
-		visibility: hidden;
+	.container-contact h4,
+	.container-contact p,
+	.info {
+		color: #ececec;
 	}
 
-	.menu {
+	.footer-name {
+		color: #ececec;
+	}
+
+	.menu1 {
+		display: none;
+	}
+
+	.menu2 {
+		display: inline-block;
+	}
+
+	.menu2 {
 		visibility: visible;
-	}
-
-	.menu ul {
-		width: 100%;
-		display: inline-block;
 		float: right;
+		padding: 0;
 	}
 
-	.menu li {
+	.menu2 li {
 		display: inline-block;
-		float: right;
-		padding: 10px 12px 0 12px;
+		padding: 0 1em 0 12px;
 	}
 
-	.menu a {
-		display: block;
-		font-family: 'Hind Siliguri', sans-serif;
-		font-size: 1em;
-		color: #4a4a4a;
-		font-weight: bold;
-		text-align: center;
-		text-transform: uppercase;
+	.menu2 a {
 		text-decoration: none;
+		color: #ececec;
+		text-transform: uppercase;
+		padding: 5px 5px;
 	}
-
 
 
 /* ---- DESKTOP 1024px ------------------------------------------- 
@@ -356,6 +387,12 @@ body {
 	#wrapper {
 		width: 90%;
 		margin: 0 auto;
+		background-color: #d4675b;
+	}
+
+	#bg-color {
+		background-color: #d4675b;
+		padding-bottom: 180px;
 	}
 
 	.clearfix {
@@ -391,8 +428,7 @@ body {
 	}
 
 	.main-nav a {
-		padding-right: 0;
-		padding-left: 45px;
+		padding: 12px 25px;
 	}
 
 
@@ -448,6 +484,16 @@ body {
 
 }
 
+
+
+
+
+
+@media screen and (min-width: 380px) {
+	.menu .hide {
+		display: none;
+	}
+}
 
 
 
