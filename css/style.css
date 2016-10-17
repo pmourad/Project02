@@ -141,6 +141,13 @@ body {
 	padding-bottom: 70px;
 }
 
+#skills {
+	padding-top: 40px;
+	margin-top: 0;
+	padding-bottom: 40px;
+	border-top: 1px solid #ececec;
+}
+
 
 /* ---- CONTACT ---- */
 
@@ -330,6 +337,10 @@ body {
 	.section-title {
 		padding-bottom: 40px;
 		padding-top: 20px;
+	}
+
+	.caption {
+		height: 100px;
 	}
 
 	/* ---- CONTACT ---- */
