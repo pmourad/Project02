@@ -99,13 +99,15 @@ a {
 
 /* ---- Gallery ---- */
 
-.gallery {
+.gallery,
+.skills {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 70px;
 }
 
-.gallery .title {
+.gallery .title,
+.skills .title-skills {
 	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 1.3em;
 	text-align: center;
@@ -120,18 +122,21 @@ a {
 	text-align: center;
 }
 
-.main-gallery img {
+.main-gallery img,
+.main-skills img {
 	width: 100%;
 }
 
-.picture h3 {
+.picture h3,
+.picture-skills h3 {
 	font-family: 'Palanquin', sans-serif;
 	font-size: 1.4em;
 	color: #4a4a4a;
 	text-align: center;
 }
 
-.picture p {
+.picture p,
+.picture-skills p{
 	font-family: 'Palanquin', sans-serif;
 	font-size: 1.2em;
 	color: #4a4a4a;
@@ -143,6 +148,22 @@ a {
 
 .bottom-space {
 	padding-bottom: 40px;
+}
+
+/* ---- Skills ---- */
+
+#skills {
+	width: 90%;
+	margin: 0 auto;
+	border-top: 1px solid #ececec;
+}
+
+#skills .title-skills {
+	padding-top: 50px;
+}
+
+.p-padding {
+	padding-bottom: 50px;
 }
 
 
@@ -256,12 +277,14 @@ footer {
 
 	/* ---- Gallery ---- */
 
-	.gallery .title {
+	.gallery .title,
+	.skills .title-skills {
 		font-size: 1.1em;
 	}
 
 
-	.gallery .picture {
+	.gallery .picture,
+	.skills .picture-skills {
 		width: 48%;
 		float: left;
 	}
@@ -285,6 +308,24 @@ footer {
 	.col2 {
 		padding-left: 10px;
 	}
+
+
+	/* ---- Skills ---- */
+
+	.main-gallery #skills {
+		width: 90%;
+		margin: 0 auto;
+		border-top: 1px solid #ececec;
+	}
+
+	#skills .title {
+		padding-top: 50px;
+	}
+
+	.p-padding {
+		padding-bottom: 50px;
+	}
+
 
 	/* ---- Contact ---- */
 
@@ -373,19 +414,16 @@ footer {
 
 	/* --- Gallery ---- */
 
-	.gallery .picture {
+	.gallery .picture,
+	.skills .picture-skills {
 		width: 30%;
+		padding-left: 29px;
 	}
 
 	.col1, .col2 {
 		padding-left: 0;
 		padding-right: 0;
 	}
-
-	.gallery .picture {
-		padding-left: 29px;
-	}
-
 
 	/* --- Contact---- */
 
